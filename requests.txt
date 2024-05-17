@@ -1,0 +1,130 @@
+##### Question 1:
+td_movie.movies.insertOne({
+    "_id": {
+        "$oid": "6647541e36f631a037dcb0a6"
+    },
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genre": "Drama",
+    "main_actors": [
+		{
+            "$oid": "664752b4eeada489bb8e8415"
+        }
+	]
+})
+
+##### Question 2:
+td_movie.movies.find({
+    {year: {$gt: 2010}}
+})
+
+##### Question 3:
+td_movie.movies.updateOne(
+    { name: "The Avengers" },
+    {
+        $set: {
+            genre: "Super Hero"
+        },
+    }
+)
+
+##### Question 4:
+td_movie.movies.deleteOne({
+    name: "Leonardo DiCaprio"
+})
+
+##### Question 5:
+td_movie.movies.find(
+    {
+        year: {$lt: 2000}
+    },
+    {
+        title: 1
+    }
+)
+
+##### Question 6:
+td_movie.movies.find().sort({ title: 1})
+
+##### Question 7:
+td_movie.movies.find().limit(5)
+
+##### Question 8:
+td_movie.movies.countDocuments()
+
+##### Question 9
+td_movie.movies.aggregate([
+    { $group: { _id: "genre", count: { $sum: 1 } } }
+])
+
+##### Question 10
+td_movie.movies.find(
+    { title: { $regex: /aventure/, $options: 'i' } }
+)
+
+##### Question 11
+td_movie.movies.createIndex({ year: 1 })
+
+##### Question 12
+td_movie.movies.aggregate([
+  { $match: { _id: ObjectId("ID_DU_FILM") } }
+  { $lookup: {
+      from: "actors", // Nom de la collection des acteurs
+      localField: "main_actors",
+      foreignField: "_id",
+      as: "actors_in_movie"
+  }},
+  { $unwind: "$actors_in_movie" },
+  { $project: {
+      _id: "$actors_in_movie._id",
+      name: "$actors_in_movie.name",
+      age: "$actors_in_movie.age",
+      gender: "$actors_in_movie.gender",
+      nationality: "$actors_in_movie.nationality"
+  }}
+])
+
+##### Question 13
+td_movie.movies.find({
+  main_actors: {
+    $in: [
+        ObjectId("664752b4eeada489bb8e8413"),
+        ObjectId("664752b4eeada489bb8e8415"),
+        ObjectId("664752b4eeada489bb8e8417")
+    ]
+  }
+})
+
+##### Question 14
+td_movie.movies.find({
+    main_actors: {
+        $elemMatch: {
+            age: { $gt: 50 }
+        }
+    }
+})
+
+##### Question 15
+const mongoose = require("mongoose");
+
+const MovieSchema = new mongoose.Schema({
+    title: {type: String, require: true},
+    year: Number,
+    genre: String,
+    main_actors: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Actor'
+    }]
+}); 
+
+const Movie = mongoose.model('Movie', MovieSchema);
+module.exports = Movie;
+
+##### Question 16
+voir le fichier atomic.js
+
+##### Question 17
+voir le fichier validation_error.js
+
+##### Question 18
+

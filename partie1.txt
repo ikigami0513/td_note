@@ -1,0 +1,5 @@
+1) Quelles sont les différences entre une base de données SQL et une base de données NoSQL ?
+Les bases de données SQL utilisent des tables liées entre elles (modèle relationnel). Chaque table a une structure définie où une ligne correspondant à une instance. Les différentes tables sont liés entre elles grâce aux clés primaires et aux clés étrangères
+Quant à elles, les bases de données NoSQL utilisent différents modèles de données que cela soit des document, des graphes ou encore des clés paires-valeurs
+
+2) Dans quel cas est-il préférable de passer sur une base de données NoSQL ?

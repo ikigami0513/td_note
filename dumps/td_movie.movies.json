@@ -1,0 +1,332 @@
+[{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e844b"
+  },
+  "title": "Inception",
+  "year": 2010,
+  "genre": "Sci-Fi",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8411"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e844d"
+  },
+  "title": "Titanic",
+  "year": 1997,
+  "genre": "Romance",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8411"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e8413"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e844f"
+  },
+  "title": "The Shawshank Redemption",
+  "year": 1994,
+  "genre": "Drama",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8415"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8451"
+  },
+  "title": "Fight Club",
+  "year": 1999,
+  "genre": "Drama",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8417"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8453"
+  },
+  "title": "Mr. & Mrs. Smith",
+  "year": 2005,
+  "genre": "Action",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8417"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e8419"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8455"
+  },
+  "title": "Iron Man",
+  "year": 2008,
+  "genre": "Action",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e841b"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8457"
+  },
+  "title": "The Avengers",
+  "year": 2012,
+  "genre": "Super Hero",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e841b"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e841d"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e841f"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8459"
+  },
+  "title": "Forrest Gump",
+  "year": 1994,
+  "genre": "Drama",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8421"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e845b"
+  },
+  "title": "The Devil Wears Prada",
+  "year": 2006,
+  "genre": "Comedy",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8423"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e845d"
+  },
+  "title": "The Departed",
+  "year": 2006,
+  "genre": "Crime",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8411"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e845f"
+  },
+  "title": "Gone Girl",
+  "year": 2014,
+  "genre": "Thriller",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8425"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e8427"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8461"
+  },
+  "title": "Gravity",
+  "year": 2013,
+  "genre": "Sci-Fi",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8429"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e842b"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8463"
+  },
+  "title": "Pulp Fiction",
+  "year": 1994,
+  "genre": "Crime",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e842d"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e842f"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8465"
+  },
+  "title": "The Dark Knight",
+  "year": 2008,
+  "genre": "Action",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8431"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e8433"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8467"
+  },
+  "title": "Interstellar",
+  "year": 2014,
+  "genre": "Sci-Fi",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8435"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e8437"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8469"
+  },
+  "title": "La La Land",
+  "year": 2016,
+  "genre": "Musical",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8439"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e843b"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e846b"
+  },
+  "title": "The Matrix",
+  "year": 1999,
+  "genre": "Sci-Fi",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e843d"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e843f"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e846d"
+  },
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "year": 2001,
+  "genre": "Fantasy",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8441"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e8443"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e846f"
+  },
+  "title": "Gladiator",
+  "year": 2000,
+  "genre": "Action",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8445"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664752b4eeada489bb8e8471"
+  },
+  "title": "Avatar",
+  "year": 2009,
+  "genre": "Sci-Fi",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8447"
+    },
+    {
+      "$oid": "664752b4eeada489bb8e8449"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6647541e36f631a037dcb0a6"
+  },
+  "title": "The Shawshank Redemption",
+  "year": 1994,
+  "genre": "Drama",
+  "main_actors": [
+    {
+      "$oid": "664752b4eeada489bb8e8415"
+    }
+  ]
+}]
